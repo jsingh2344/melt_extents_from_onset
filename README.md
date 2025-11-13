@@ -3,7 +3,7 @@
 ## 11/6 - 11/13 update:
 
 
-- Main issue was loading enough images from the datacube into memory at the same time to run functions on. Google Colab goose chase was not fruitful. Currently chunking the datacube into 500x500 pixel sections, which equate to ~450 MB each.
+- Main issue was loading enough images from the datacube into memory at the same time to run functions on. Google Colab sadle was not fruitful. Currently chunking the datacube into 500x500 pixel sections, which equate to ~450 MB each.
   Some glaciers will be left out if they are on the boundary of chunks. Could clip directly to glacier bounding boxes and iterate through each glacier, or
   have the chunks overlap enough so that each glacier will be entirely contained in at least one chunk.
 - Melt onsets are being triggered by a pixel's backscatter exceeding 3 dB from the winter mean. Melt extent is then calculated at any given
