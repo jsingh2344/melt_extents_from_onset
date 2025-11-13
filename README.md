@@ -13,4 +13,7 @@
 - A pixel triggers its 'snowline onset' by 1) having already begun its melt onset, and 2) by exceeding 4 dB from the 5th percentile summer backscatter.
   Will edit the 1) logic so that a pixel must only have been deemed 'melting'. Currently, some pixels at lower elevation anomalously never hit the 3 dB trigger,
   which incorrectly prevents them from ever having its 'snowline onset'.
+- Wrote functions that output .tiff rasters for the snowline/melt extent DOY maps. 
+- Other Todos: Replicate melt extent elevation logic for snowlines, write functions that convert purely from .tiffs to melt extent csvs, investigate post-processing methods,
+  plot aggregate comparison diagnostics 
   
