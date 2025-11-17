@@ -20,5 +20,6 @@
 
 ### 11/17:
 - Fixed difference csv logic to include correct date range and plotted:
-  <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/3a05cad5-84e4-4f63-8038-29d4b065f500" />
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/07859745-b599-4bdd-9810-5ddfd9708986" />
+
 
