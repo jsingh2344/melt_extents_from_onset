@@ -16,4 +16,9 @@
 - Wrote functions that output .tiff rasters for the snowline/melt extent DOY maps. 
 - Other Todos: Replicate melt extent elevation logic for snowlines, write functions that convert purely from .tiffs to melt extent/snowline csvs, investigate post-processing methods,
   plot aggregate comparison diagnostics 
-  
+
+
+### 11/17:
+- Fixed difference csv logic to include correct date range and plotted:
+  <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/3a05cad5-84e4-4f63-8038-29d4b065f500" />
+
