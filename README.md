@@ -23,3 +23,15 @@
 <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/07859745-b599-4bdd-9810-5ddfd9708986" />
 
 - Old Melt Extent methodology comparison folder is at this commit link: https://github.com/jsingh2344/melt_extents_from_onset/tree/940c859bc244005947d52e1bffbd687a3e67ba82/me_cmp_figs
+
+### 11/24:
+- Investigating how, early in the summers, the onset method can yield a higher method than the allmelt method:
+- First, a subset comparison plot for just summer months and some percentile bands:
+- <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/8dc4c390-7d0f-4a15-870b-eaf3fc7e7a77" />
+- Looking at glacier 6369, with and without the allmelt_threshold logic:
+- <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/272d52b1-2b2e-45db-b5a2-bb6ac4986bf8" /> is with, and
+-  <img width="1200" height="600" alt="6369_no_allmelt_cmp" src="https://github.com/user-attachments/assets/09c1ce77-9141-4f87-9116-f2c5a487e0a2" /> is without
+-  Going to examine in the second plot how the onset method gives such higher values. In a lot of cases, though, I hypothesize that early in the summer, the onset mask setting pixels
+  to 'melted' once and then never reversing is why the onset method elevations are higher. Most of the allmelt method elevation graphs rise and then drop a few times, which could generate the delta.
+
+
