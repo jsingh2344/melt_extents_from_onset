@@ -37,6 +37,18 @@
 ### 11/26 - 27:
 - Looks like the difference is indeed that the onset logic has that pixels stay melting the whole year, and the previous allmelt methodology does not. Using persistent melt pixel logic (and no allmelt) for only 2020 gets:
 - <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/09140c4c-5ea5-4e6b-9daf-1fcd7aa02b3e" />
+### 11/29:
+- Extending to every year, to sanity check: <img width="1189" height="590" alt="f7ddc799-2c3e-4a78-9e5f-6cc72d8edf5c" src="https://github.com/user-attachments/assets/652e1b27-fd90-4939-8e8e-56c148441405" />
+- Next, how it looks when using allmelt logic is added back in but the underlying pixel persistence is kept also (so the only difference between the onset method and the previous method should be because of added allmelt pixels):
+- <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/53563db8-c1fd-4c5f-9c3a-6fcb7e156dcf" />
+- And here is the overall comparison, which matches expectation:
+- <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/c75a9812-d151-43d6-a0fc-558ca7f01d30" />
+- I believe the slight positive values in some glaciers is a result of using difference time indexing for the onset model (since it resets every year, I've been calculating elevations for 10-day intervals and using the nearest scene in time at each time index, which
+  could mismatch the underlying data being used at a few comparison points)
+
+
+
+
 
 
 
