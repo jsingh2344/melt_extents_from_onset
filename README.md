@@ -45,6 +45,13 @@
 - <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/c75a9812-d151-43d6-a0fc-558ca7f01d30" />
 - I believe the slight positive values in some glaciers is a result of using difference time indexing for the onset model (since it resets every year, I've been calculating elevations for 10-day intervals and using the nearest scene in time at each time index, which
   could mismatch the underlying data being used at a few comparison points)
+- Also added the onset maps folder. Here are some examples for 6369:
+  <img width="1199" height="1023" alt="6369_melt_onset_2018" src="https://github.com/user-attachments/assets/0ea955bc-1818-4149-acc3-85f8ec6ed34a" />
+  <img width="1199" height="1023" alt="6369_melt_onset_2019" src="https://github.com/user-attachments/assets/a7ff28de-0021-4270-8c3e-eb2d4a6f6dc8" />
+  <img width="1199" height="1023" alt="6369_melt_onset_2020" src="https://github.com/user-attachments/assets/66194267-b53f-40fb-9474-6f126216adad" />
+
+
+
 
 
 
