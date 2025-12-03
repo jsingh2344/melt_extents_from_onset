@@ -31,7 +31,7 @@
 - Looking at glacier 6369, with and without the allmelt_threshold logic:
 - <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/272d52b1-2b2e-45db-b5a2-bb6ac4986bf8" /> is with, and
 -  <img width="1200" height="600" alt="6369_no_allmelt_cmp" src="https://github.com/user-attachments/assets/09c1ce77-9141-4f87-9116-f2c5a487e0a2" /> is without
--  Going to examine in the second plot how the onset method gives such higher values. In a lot of cases, though, I hypothesize that early in the summer, the onset mask setting pixels
+-  Going to examine in the second plot how the onset method gives such higher values. In a lot of cases, though, I'm guessing that early in the summer, the onset mask setting pixels
   to 'melted' once and then never reversing is why the onset method elevations are higher. Most of the allmelt method elevation graphs rise and then drop a few times, which could generate the delta.
 - In particular, I will look at what is going on in 2020.
 ### 11/26 - 27:
