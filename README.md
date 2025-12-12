@@ -53,7 +53,7 @@
 ## 12/12:
 
 - Implemented logic for judging melt onset with pixels that show consecutive melt signal. In the onset_maps folder, glaciers 6360, 6369, 6023, 6025, 6026, 6029, 6031, 6043, 6047, 6352, 6353 (they share a grid chunk of the path frame)
-  have the updated onset maps, the old onset maps, the maps that difference the two. Other glacier folders have only the original onset maps at the moment. Examples for 6369:
+  have figures for the updated onset maps, the old onset maps, the maps that difference the two. Other glacier folders have only the original onset maps at the moment. Examples for 6369:
   
 <img width="1218" height="1023" alt="6369_melt_onset_2023" src="https://github.com/user-attachments/assets/4eb7b666-a638-4eff-8aae-1457487b62d5" />
 <img width="1256" height="1023" alt="6369_melt_onset_cons_2023" src="https://github.com/user-attachments/assets/a4874507-8071-4859-82bc-6e4302999808" />
