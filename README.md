@@ -50,6 +50,49 @@
   <img width="1199" height="1023" alt="6369_melt_onset_2019" src="https://github.com/user-attachments/assets/a7ff28de-0021-4270-8c3e-eb2d4a6f6dc8" />
   <img width="1199" height="1023" alt="6369_melt_onset_2020" src="https://github.com/user-attachments/assets/66194267-b53f-40fb-9474-6f126216adad" />
 
+## 12/12:
+
+- Implemented logic for judging melt onset with pixels that show consecutive melt signal. In the onset_maps folder, glaciers 6360, 6369, 6023, 6025, 6026, 6029, 6031, 6043, 6047, 6352, 6353 (they share a grid chunk of the path frame)
+  have the updated onset maps, the old onset maps, the maps that difference the two. Other glacier folders have only the original onset maps at the moment. Examples for 6369:
+  
+<img width="1218" height="1023" alt="6369_melt_onset_2023" src="https://github.com/user-attachments/assets/4eb7b666-a638-4eff-8aae-1457487b62d5" />
+<img width="1256" height="1023" alt="6369_melt_onset_cons_2023" src="https://github.com/user-attachments/assets/a4874507-8071-4859-82bc-6e4302999808" />
+<img width="1301" height="1044" alt="6369_melt_onset_diff_2023" src="https://github.com/user-attachments/assets/0de8cd69-dfee-46ca-b079-5baaf368c7e6" />
+
+- Single melt extent comparisons are in folder me_cmp_figs for the non-consecutive method, and me_cmp_figs_cons for the consecutive method
+- Summary summer plot for the consecutive melt method is
+  <img width="1389" height="690" alt="melt_extent_comparison_cons" src="https://github.com/user-attachments/assets/812f5e93-88d1-4ad9-9700-aaf06f7a20b0" />
+- Added area proportion comparisons between the previous (non onset-based) method and onsets. Here they are for the non-consecutive onset method:
+  <img width="1389" height="690" alt="area_comparison_no_cons" src="https://github.com/user-attachments/assets/878b05e1-22eb-4531-9bfe-0e1ec50973e2" />
+  - And consecutive: 
+  <img width="1389" height="690" alt="area_comparison_cons" src="https://github.com/user-attachments/assets/89488a6d-e136-43ce-a612-5f96ff63398b" />
+- Finally, have some dotplots to compare methods also. Currently averaging elevation over each month for each glacier to get:
+<img width="1781" height="2380" alt="monthly_prev_vs_onset_elev_may_oct" src="https://github.com/user-attachments/assets/4c4bb7bf-13b8-4caf-8a26-f2d40c0f6f98" />
+
+
+, and
+
+
+<img width="1780" height="2380" alt="monthly_prev_vs_onset_elev_may_oct_cons" src="https://github.com/user-attachments/assets/73a70f8b-79cd-473c-b4ec-1831a72b0ccb" />
+(the second group of plots uses the consecutive melt logic)
+
+And for area:
+
+<img width="1784" height="2380" alt="monthly_prev_vs_onset_area_may_oct" src="https://github.com/user-attachments/assets/331d8782-53f6-4e6b-8481-519e8308d7d8" />
+
+, and
+
+
+<img width="1784" height="2380" alt="monthly_prev_vs_onset_area_may_oct_cons" src="https://github.com/user-attachments/assets/a355b6f7-a382-4c7e-8111-1af6e02bb144" />
+
+Again, the second plot grouping uses consecutive melt logic. 
+
+
+
+  
+
+
+
 
 
 
