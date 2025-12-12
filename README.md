@@ -87,6 +87,10 @@ And for area:
 
 Again, the second plot grouping uses consecutive melt logic. 
 
+- There are some strange outlying behavior going on with some glaciers. In particular, outside of specific time index mismatching, I wouldn't expect the standard onset method (not filtering for consecutive melt
+  time steps) to consistently predict lower melt extent elevations than the previous non-onset method does, now that the allmelt is used in both. The dotplots indicate some of the glaciers where that is happening, and
+  I'll look into why that is. 
+
 
 
   
